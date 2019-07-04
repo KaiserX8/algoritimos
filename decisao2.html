@@ -1,0 +1,17 @@
+<html>
+    <script>
+        let nota = prompt('Informe sua nota');
+
+nota = parseFloat(nota);
+if (isNaN(nota)<0 || nota > 10) {
+alert('Nota inválida, repita o rocedimento');
+} else if (nota<3){
+    alert('Reprovado');
+} else if(nota<7){
+    alert('Recuperação');
+} else{
+    alert('Aprovado');
+}
+
+    </script>
+</html>
