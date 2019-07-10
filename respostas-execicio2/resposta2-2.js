@@ -1,9 +1,10 @@
+/*
 let numero = prompt('Informe um número');
 
 if (numero < 0) {
     alert('O número é negativo');
 }else if (numero > 0) {
-    alert('O número é postivo')}
+    alert('O número é postivo')}*/
 /*
 let numero = prompt('Informe um número');
 
@@ -19,3 +20,11 @@ if (isNaN(numero)) {
     resposta = 'O número é NEUTRO';
 }
 */
+let numero = -5;/*essa formula esta é forçada */
+switch(numero < 0){
+    case true
+        alert('número negativo');
+        break;
+    default:
+        alert('número positivo')
+}

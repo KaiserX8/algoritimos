@@ -10,6 +10,7 @@ if(numero1> numero2) {
 } else {
     maior = numero2;
 }
+*/
 /*
 let numero1 = prompt('Informe o primeiro número');
 numero1 = parseInt(numero1);
@@ -23,4 +24,4 @@ if(numero2 > maior) {
     maior = numero2
 }
 */
-alert('O miaor número é ' + maior)
+alert('O maior número é ' + maior)
