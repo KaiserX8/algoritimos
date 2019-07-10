@@ -22,7 +22,7 @@ if (isNaN(numero)) {
 */
 let numero = -5;/*essa formula esta é forçada */
 switch(numero < 0){
-    case true
+    case true:
         alert('número negativo');
         break;
     default:
