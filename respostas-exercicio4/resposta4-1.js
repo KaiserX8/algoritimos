@@ -8,4 +8,4 @@ let n4 = prompt('digite o 4º numero inteiro')
 
 let n5 = prompt('digite o 5º numero inteiro')
 
-alert(n1 + -n2 + -n3 + -n4 + -n5)
+alert(n1 + n2 + n3 + n4 + n5)

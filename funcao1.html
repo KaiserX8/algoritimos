@@ -1,0 +1,45 @@
+<html>
+<script>
+/*   
+function olah() {
+    return 'Olá Mundo!!!';
+}
+
+function soNumero(texto) {
+    let numero = '';
+    do {
+        numero = prompt(texto);
+        numero = parseFloat(numero);
+        if (!isNaN(numero)) {
+            return numero;
+        }
+    } while(isNaN(numero))
+}
+let numero1 = soNumero('Diga o número 1');
+let numero2 = soNumero('Diga o número 2');
+
+alert(numero1 + numero2);
+*/
+function ehNumero(numero) {
+    return !isNaN(numero);
+     /* if(isNaN(numero)) {
+        return false;
+    }
+    return true;*/
+}
+function ehNumero(texto) {
+    let numero = '';
+    do {
+        numero = prompt(texto);
+        numero = parseFloat(numero);
+        if (ehNumero(numero)) {
+            return numero;
+        }
+    } while(isNaN(numero))
+}
+let numero1 = ehNumero('Diga o número 1');
+let numero2 = ehNumero('Diga o número 2');
+
+alert(numero1 + numero2);
+</script>
+</html>
